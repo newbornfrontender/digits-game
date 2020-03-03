@@ -1,0 +1,40 @@
+{
+  "name": "digits-game",
+  "version": "1.0.0",
+  "repository": "https://github.com/newbornfrontender/digits-game",
+  "author": "newbornfrontender <newbornfrontender@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier --write --ignore-path .gitignore **/*.{html,css,js*,svelte,md}",
+    "start": "rollup -c -w",
+    "build": "rollup -c"
+  },
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^11.0.2",
+    "@rollup/plugin-node-resolve": "^7.1.1",
+    "effector": "^20.12.1",
+    "postcss": "^7.0.27",
+    "postcss-load-config": "^2.1.0",
+    "postcss-preset-env": "^6.7.0",
+    "rollup": "^1.31.1",
+    "rollup-plugin-delete": "^1.2.0",
+    "rollup-plugin-postcss": "^2.1.1",
+    "rollup-plugin-svelte": "^5.1.1",
+    "rollup-plugin-terser": "^5.2.0",
+    "svelte": "^3.19.1",
+    "svelte-preprocess": "^3.4.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1",
+    "prettier-plugin-svelte": "^0.7.0"
+  },
+  "prettier": {
+    "printWidth": 120,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "arrowParens": "always",
+    "endOfLine": "lf",
+    "svelteSortOrder": "scripts-markup-styles",
+    "svelteBracketNewLine": true
+  }
+}
