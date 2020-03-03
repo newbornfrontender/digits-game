@@ -1,6 +1,6 @@
 # digits-game
 
-...
+IN DEVELOPMENT
 
 ## License
 
