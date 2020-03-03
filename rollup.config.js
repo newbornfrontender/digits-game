@@ -32,7 +32,6 @@ export default {
     resolve({
       browser: true,
       dedupe: ['svelte'],
-      modulesOnly: true,
     }),
     commonjs({
       extensions: ['.js', '.svelte'],
