@@ -571,6 +571,13 @@ dot-prop@^5.2.0:
   dependencies:
     is-obj "^2.0.0"
 
+effector@^20.12.1:
+  version "20.12.1"
+  resolved "https://registry.yarnpkg.com/effector/-/effector-20.12.1.tgz#499d941b802f16c71c895d09e4098145a2653709"
+  integrity sha512-jeyAlQOPBb9UDr4l1tKdwcJxAdwQ7WeUqbtbC1Z/rFNyRBdmWYw80jFtt8gQhFxrANyM6WX8S0tMjVRVWI2Kag==
+  dependencies:
+    symbol-observable "^1.2.0"
+
 electron-to-chromium@^1.3.361:
   version "1.3.362"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.362.tgz#9ed33f9d0673888d6a2614347b4b63b490009408"
@@ -2109,6 +2116,11 @@ svgo@^1.0.0:
     stable "^0.1.8"
     unquote "~1.1.1"
     util.promisify "~1.0.0"
+
+symbol-observable@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-1.2.0.tgz#c22688aed4eab3cdc2dfeacbb561660560a00804"
+  integrity sha512-e900nM8RRtGhlV36KGEU9k65K3mPb1WV70OdjfxlG2EAuM1noi/E/BaW/uMhL7bPEssK8QV57vN3esixjUvcXQ==
 
 terser@^4.6.2:
   version "4.6.4"

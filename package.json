@@ -12,6 +12,7 @@
   "dependencies": {
     "@rollup/plugin-commonjs": "^11.0.2",
     "@rollup/plugin-node-resolve": "^7.1.1",
+    "effector": "^20.12.1",
     "postcss": "^7.0.27",
     "postcss-load-config": "^2.1.0",
     "postcss-preset-env": "^6.7.0",
@@ -28,7 +29,7 @@
     "prettier-plugin-svelte": "^0.7.0"
   },
   "prettier": {
-    "printWidth": 100,
+    "printWidth": 120,
     "singleQuote": true,
     "trailingComma": "all",
     "arrowParens": "always",
