@@ -13,7 +13,14 @@
   let notMatching = [];
   let existing = [];
 
-  const checkNumber = () => {
+  const checkNumber = async () => {
+    const req = await fetch('http://localhost:3000/api/game', {}, {
+      mode: 'no-cors',
+      method: 'get',
+      url: `http://localhost:3000`,
+      credentials: 'include'
+    }).then(console.log);
+
     const randNumsArr = splitStr(randNums);
     const userNumsArr = splitStr($value);
 
