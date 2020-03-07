@@ -9,7 +9,7 @@ import { terser } from 'rollup-plugin-terser';
 const production = !process.env.ROLLUP_WATCH;
 
 const ctx = {
-  production: true,
+  production,
 };
 
 export default {
